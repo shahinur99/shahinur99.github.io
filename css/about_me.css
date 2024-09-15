@@ -36,7 +36,9 @@
 }
 
 .am_photo img{
-    width: 100%;
+      width: 600px;
+      height: 700px;
+      margin-left: 100px;
 }
 
 .social_icon{
