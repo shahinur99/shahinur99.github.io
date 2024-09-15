@@ -1,0 +1,22 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.pr_photo img{
+    width: 500px;
+    height: 400px;
+    margin: 30px;
+    border-radius: 20px;
+
+}
+
+.pr_title h1{
+    padding: 20px 0px 0px 20px ;
+}
+
+.pr_details{
+    margin: 0 30px;
+    font-size: x-large;
+    text-align: justify;
+}

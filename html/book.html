@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bookshelf</title>
+    <style>
+        body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.bookshelf {
+    width: 60%;
+    background-color: #8b4513;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+.shelf {
+    background-color: #d2691e;
+    height: 20px;
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.book {
+    display: inline-block;
+    width: 80px;
+    height: 120px;
+    margin-right: 10px;
+    background-color: #ffcc00;
+    text-align: center;
+    line-height: 120px;
+    color: #333;
+    font-weight: bold;
+    border-radius: 3px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+.book:last-child {
+    margin-right: 0;
+}
+
+    </style>
+</head>
+<body>
+    <div class="bookshelf">
+        <div class="shelf">
+            <div class="book">Book 1</div>
+            <div class="book">Book 2</div>
+            <div class="book">Book 3</div>
+        </div>
+        <div class="shelf">
+            <div class="book">Book 4</div>
+            <div class="book">Book 5</div>
+            <div class="book">Book 6</div>
+        </div>
+        <div class="shelf">
+            <div class="book">Book 7</div>
+            <div class="book">Book 8</div>
+            <div class="book">Book 9</div>
+        </div>
+    </div>
+</body>
+</html>
